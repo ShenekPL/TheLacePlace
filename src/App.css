@@ -17,6 +17,14 @@
   background-color: #17153B;
   width: 100%;
   height: 95px;
+  text-align: left;
+}
+
+.Logo{
+  width: 205px;
+  height: auto;
+  padding-left: 50px;
+  margin-top: 32.5px;
 }
 
 .Section2{
