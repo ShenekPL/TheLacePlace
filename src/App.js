@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import TextField from "@mui/material/TextField";
-import List from "./Components/List"
 import './App.css';
 import logo from './Logo.png'
 function App() {
@@ -9,14 +8,14 @@ function App() {
       <header className="App-header">
         <section className="Section">
           <img src={logo} alt="Logo" className="Logo" />
-          <div className="search">
+          <div className="Search"> 
             <TextField
-              id="outlined-basic"
+              id="SearchBar"
               variant="outlined"
               fullWidth
-              label="Search"
+              placeholder="Search"
             />
-      </div>
+          </div>
         </section>
         <section className="Section2">
           <p>Diddy</p>
@@ -25,5 +24,4 @@ function App() {
     </div>
   );
 }
-
 export default App;

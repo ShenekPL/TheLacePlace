@@ -20,11 +20,21 @@
   text-align: left;
 }
 
+.Search{
+  width: 40%;
+  background-color: #FFFFFF;
+  float: left;
+  margin-left: 30px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
 .Logo{
   width: 205px;
   height: auto;
   padding-left: 50px;
   margin-top: 32.5px;
+  float: left;
 }
 
 .Section2{
